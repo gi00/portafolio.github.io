@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #cceeff;
+}
+
+header {
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Añade este estilo al archivo styles.css */
+
+.icon-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.icon-list li {
+  margin-bottom: 10px;
+}
+
+.icon-list i {
+  margin-right: 10px;
+}
+
